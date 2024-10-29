@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+    <title>About Us</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">TextUtils.com</a>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+          <li class="nav-item active"><a class="nav-link" href="{% url 'aboutus' %}">About Us</a></li>
+          <li class="nav-item"><a class="nav-link" href="{% url 'contactus' %}">Contact Us</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container mt-4">
+      <h1>About Us</h1>
+      <p>Welcome to TextUtils! Our goal is to make text processing simple and efficient for everyone.</p>
+    </div>
+  </body>
+</html>
